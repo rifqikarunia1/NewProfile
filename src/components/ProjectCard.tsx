@@ -12,7 +12,7 @@ type ProjectCardProps = {
     photos: string[]
 }
 
-function ProjectCard({ index, title, description, tech, link, period, photos }: ProjectCardProps) {
+function ProjectCard({ title, description, tech, link, period, photos }: ProjectCardProps) {
     const [lightbox, setLightbox] = useState(false)
     const [activePhoto, setActivePhoto] = useState(0)
     return (
