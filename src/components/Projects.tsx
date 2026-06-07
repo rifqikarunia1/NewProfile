@@ -49,7 +49,6 @@ const projects = [
             '/images/Tabungan 1.jpg',
             '/images/Tabungan 2.jpg',
             '/images/Tabungan 3.jpg',
-            '/images/Tabungan 4.jpg'
         ]
     },
 ]
