@@ -51,6 +51,95 @@ body {
   background: rgba(255, 255, 255, 0.15);
 }
 
+@media (max-width: 640px) {
+
+  /* ── HERO ── */
+  .hero {
+    padding: 100px 20px 60px;
+  }
+
+  .hero-name {
+    font-size: 36px;
+  }
+
+  .hero-role-line {
+    font-size: 28px;
+  }
+
+  .btn-dark,
+  .btn-outline {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero-cta {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* ── PROJECTS ── */
+  .projects-grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card-v2 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-card-right {
+    width: 100%;
+    align-items: center;
+  }
+
+  .project-card-right>div {
+    width: 100% !important;
+    height: 220px !important;
+  }
+
+  /* ── ABOUT ── */
+  .about-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .about-stats {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* ── EXPERIENCE ── */
+  .exp-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  /* ── SKILLS ── */
+  .skills-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* ── NAVBAR ── */
+  .nav-pill {
+    display: none;
+  }
+
+  .navbar {
+    padding: 16px 20px;
+  }
+
+  .hero-avatar {
+    width: 200px !important;
+    height: 160px;
+    top: 80px;
+    right: 20px;
+  }
+
+  .hero {
+    padding-top: 220px;
+  }
+}
+
+
 /* ── NAVBAR ── */
 .navbar {
   position: fixed;
@@ -1337,27 +1426,4 @@ body {
 
 .hero-role-accent {
   color: #800bf5;
-}
-
-@media (max-width: 1024px) {
-  .hero-avatar {
-    width: 160px;
-    height: 160px;
-    right: 32px;
-    top: 30px;
-  }
-}
-
-@media (max-width: 640px) {
-  .hero-avatar {
-    width: 110px;
-    height: 110px;
-    right: 20px;
-    top: 20px;
-  }
-
-  .hero-blob {
-    left: 30%;
-    width: 400px;
-  }
 }
