@@ -127,15 +127,22 @@ body {
     padding: 16px 20px;
   }
 
-  .hero-avatar {
-    width: 200px !important;
-    height: 160px;
-    top: 80px;
-    right: 20px;
+  .hero {
+    padding: 90px 20px 60px;
+    justify-content: flex-start;
   }
 
-  .hero {
-    padding-top: 220px;
+  .hero-avatar {
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    width: 120px !important;
+    height: 120px !important;
+    margin-bottom: 24px;
+  }
+
+  .hero-text {
+    max-width: 100%;
   }
 }
 
