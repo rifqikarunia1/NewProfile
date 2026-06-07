@@ -117,11 +117,11 @@ function About() {
 
                     <div className="about-stats" >
                         <div className="stat-item">
-                            <div className="stat-num">3+</div>
+                            <div className="stat-num">2+</div>
                             <div className="stat-desc">Years of Experience</div>
                         </div>
                         <div className="stat-item">
-                            <div className="stat-num">3</div>
+                            <div className="stat-num">3+</div>
                             <div className="stat-desc">Enterprise Projects</div>
                         </div>
                         <div className="stat-item">
