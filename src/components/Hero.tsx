@@ -89,8 +89,8 @@ function Hero() {
                     <button className="btn-dark" onClick={() => scrollTo('projects')}>
                         Explore My Works
                     </button>
-                    <a href="src/assets/CV.pdf" target="_blank" rel="noreferrer" className="btn-outline">
-                        Download CV
+                    <a href="/images/CV.pdf" target="_blank" rel="noreferrer" className="btn-outline">
+                        See My CV
                     </a>
                 </div>
             </div>
