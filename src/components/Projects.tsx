@@ -10,7 +10,7 @@ const projects = [
         tech: ["python", "Jquery", "Django", "PostgreSQL"],
         period: "2024",
         photos: [
-            'src/assets/IWA 1.jpg',
+            '/images/IWA 1.jpg',
         ]
     },
     {
@@ -20,10 +20,10 @@ const projects = [
         tech: ["python", "Django", "Jquery", "REST API", "PostgreSQL"],
         period: "2024 – 2025",
         photos: [
-            'src/assets/KIERA 1.jpg',
-            'src/assets/KIERA 2.jpg',
-            'src/assets/KIERA 3.jpg',
-            'src/assets/KIERA 4.jpg'
+            '/images/KIERA 1.jpg',
+            '/images/KIERA 2.jpg',
+            '/images/KIERA 3.jpg',
+            '/images/KIERA 4.jpg'
         ]
     },
     {
@@ -33,10 +33,10 @@ const projects = [
         tech: ["python", "Django", "Jquery", "PDFKit", "PostgreSQL", "Pentahoo", "Trino", "Oracle DB"],
         period: "2025 - Present",
         photos: [
-            'src/assets/SAPA 1.jpg',
-            'src/assets/SAPA 2.jpg',
-            'src/assets/SAPA 3.jpg',
-            'src/assets/SAPA 4.jpg'
+            '/images/SAPA 1.jpg',
+            '/images/SAPA 2.jpg',
+            '/images/SAPA 3.jpg',
+            '/images/SAPA 4.jpg'
         ]
     },
     {
@@ -46,10 +46,10 @@ const projects = [
         tech: ['HTML', 'Google Apps Script', 'Google Sheets'],
         period: "2025 - Present",
         photos: [
-            'src/assets/Tabungan 1.jpg',
-            'src/assets/Tabungan 2.jpg',
-            'src/assets/Tabungan 3.jpg',
-            'src/assets/Tabungan 4.jpg'
+            '/images/Tabungan 1.jpg',
+            '/images/Tabungan 2.jpg',
+            '/images/Tabungan 3.jpg',
+            '/images/Tabungan 4.jpg'
         ]
     },
 ]
